@@ -1,6 +1,5 @@
 #(©)Codexbotz
 
-from pyrogram import __version__
 from bot import Bot
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
@@ -14,7 +13,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                        InlineKeyboardButton("🗿 Close", callback_data = "close")
                     ]
                 ]
             )
